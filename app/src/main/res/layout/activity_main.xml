@@ -2,14 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     android:orientation="vertical">
 
 
-    <TextView
+    <Button
+        android:id="@+id/color"
         android:layout_width="266dp"
         android:layout_height="270dp"
         android:layout_gravity="center"
-        android:background="@drawable/circulo" />
+        android:background="@drawable/circulo"
+        android:backgroundTint="#BA9797" />
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +27,8 @@
         android:layout_width="279dp"
         android:layout_height="49dp"
         android:layout_gravity="center_horizontal"
-        android:background="@color/white"
+        android:background=""
+        android:textColor="@color/black"
         android:text="Edit Profile" />
 
     <LinearLayout
